@@ -12,9 +12,9 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"pretty",
 					"html:test-output/cucumber.html",
 					"json:target/cucumber.json",
-					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 		
-		 tags = "@PositiveTest"		// Cucumber 6 syntax
+		 //tags = "@PositiveTest"		// Cucumber 6 syntax
 		//tags = "@AddSingleProduct or @ChangeQuantityofProducts or @clearCart" 
 		)
 
